@@ -83,8 +83,9 @@
     <Content Include="healthandsafety.html" />
     <Content Include="index.html" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="KompliantApp\controllers\kompliantController.js" />
+    <Content Include="KompliantApp\controllers\requirementsController.js" />
     <Content Include="KompliantApp\kompliantApp.js" />
+    <Content Include="KompliantApp\services\requirementService.js" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -156,9 +157,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="KompliantApp\services\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

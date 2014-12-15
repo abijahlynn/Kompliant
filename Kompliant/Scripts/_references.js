@@ -19,4 +19,5 @@
 /// <reference path="sb-admin-2.js" />
 /// <reference path="jquery-2.1.1.js" />
 /// <reference path="../kompliantapp/kompliantapp.js" />
-/// <reference path="../kompliantapp/controllers/kompliantcontroller.js" />
+/// <reference path="../kompliantapp/controllers/requirementscontroller.js" />
+/// <reference path="../kompliantapp/services/requirementservice.js" />
